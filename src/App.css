@@ -1,0 +1,31 @@
+.menu-btn,
+.menu-btn-a,
+.menu-btn-b {
+  display: block;
+  background-color: #555;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  right: 5px;
+  top: 18px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-btn-b {
+  margin-top: -8px;
+}
+
+.menu-btn-a {
+  margin-top: 8px;
+}
+
+.toggle-b {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+.toggle-a {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
