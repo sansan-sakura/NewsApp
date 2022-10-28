@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import NewsPost from "./component/NewsPost";
 import Header from "./component/Header";
 import NewsPostWithoutImage from "./component/NewsPostWithoutImage";
+import Footer from "./component/Footer";
 import { ChakraProvider } from "@chakra-ui/react";
 
 import "./App.css";
@@ -64,6 +65,7 @@ https://newsapi.org/v2/top-headlines?country=${currCountry}&category=${currGenre
             )}
           </div>
         </div>
+        <Footer />
       </div>
     </ChakraProvider>
   );
